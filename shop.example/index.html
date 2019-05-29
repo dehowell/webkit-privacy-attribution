@@ -1,7 +1,15 @@
 <body>
-	<h1>I am the advertiser!</h1>
-	<p>I have items to sell.</p>
-	<div>
-
-	</div>
+  <h1>I am the advertiser!</h1>
+  <p>I have items to sell.</p>
+  <div>
+    <form onsubmit="trackConversion()">
+      <input type="submit" value="Add to Cart" />
+    </form>
+  </div>
+  <script type="text/javascript">
+    trackConversion = function() {
+      console.log("Whoa you converted!");
+      window.location = "/converted.html";
+    };
+  </script>
 </body>
