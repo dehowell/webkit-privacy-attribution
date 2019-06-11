@@ -3,7 +3,7 @@
 You will need:
 
 - brew install nginx
-- append the contents of `add-to-hosts` to your /ets/hosts file
+- append the contents of `add-to-hosts` to your /etc/hosts file
 - Install Safari Technology Preview version 82 or higher
 - Generate certificates for nginx SSL termination (see below)
 
